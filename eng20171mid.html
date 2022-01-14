@@ -1,0 +1,860 @@
+<!doctype>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            border-bottom:1px solid gray;
+            padding-left:20px;
+            height:150px;
+        }
+
+        .navbar {
+          overflow: hidden;
+          background-color: black;
+          position: relative ;
+          top: 20px;
+          width: 100%;
+        }
+
+        .navbar a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        .navbar a:hover {
+          background: #ddd;
+          color: black;
+        }
+        footer{
+            border-top:1px solid gray;
+            padding:20px;
+            text-align: center;
+        }
+        .content{
+            display:flex;
+        }
+
+        .content aside{
+            border-left:1px solid gray;
+            flex-basis:100px ;
+            flex-shrink:0;
+            padding-left : 10px;
+        }
+
+        .tab {
+          padding-top: 10px;
+          float: left;
+          border: 1px solid #ccc;
+          background-color:skyblue;
+          flex-basis: 100px;
+          flex-shrink: 0;
+          }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+          display: block;
+          background-color: inherit;
+          color: black;
+          padding: 10px 10px;
+          width: 100%;
+          border: none;
+          outline: none;
+          text-align: center;
+          cursor: pointer;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-color: #ddd;
+        }
+
+        /* Create an active/current "tab button" class */
+        .tab button.active {
+          background-color: #ccc;
+        }
+
+        main{
+            flex-basis : 1300px;
+            flex-shrink:1;
+            padding-left: 20px;
+            column-count : 2;
+            column-width: 600px;
+            column-gap:50px;
+            column-rule: 1px solid;
+            line-height: 170%;
+        }
+        .jimun{
+            width:500px;
+            border:1px solid;
+            padding-left : 1.8em;
+            padding-right : 15px;
+            padding-top : 10px;
+            padding-bottom : 10px;
+            margin-left : 30px;
+            terx-align:justify;
+          }
+          .bogi{
+            padding-left:20px;
+          }
+          table {
+            table-layout: fixed;
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+          <div>
+            <img src="서초중학교 로고.PNG" style="vertical-align:middle;">
+            <span style="font-size: 18px;font-weight: bold;">영어 2021년 2학년 1학기 중간고사 </span>
+          </div>
+
+          <div class="navbar">
+              <a href="#">HOME</a>
+              <a href="eng20211mid.html">2021년</a>
+              <a href="eng20201mid.html">2020년</a>
+              <a href="eng20191mid.html">2019년</a>
+              <a href="eng20181mid.html">2018년</a>
+              <a href="eng20171mid.html">2017년</a>
+          </div>
+        </header>
+        <section class="content">
+           <div class="tab">
+              <button class="tablinks" onclick="openContents(event, '1')" id="defaultOpen">1 - 5</button>
+              <button class="tablinks" onclick="openContents(event, '2')">6 - 9</button>
+              <button class="tablinks" onclick="openContents(event, '3')">10 - 12</button>
+              <button class="tablinks" onclick="openContents(event, '4')">13 - 16</button>
+              <button class="tablinks" onclick="openContents(event, '5')">17 - 22</button>
+              <button class="tablinks" onclick="openContents(event, '6')">23 - 26</button>
+              <button class="tablinks" onclick="openContents(event, '11')">정답</button>
+           </div>
+
+            <main>
+              <div id="1" class="tabcontent">
+
+                <h4> 1. Which is the CORRECT match? [3점] </h4>
+
+                    <div class="bogi"><p>
+                       ① liquefy : to become watery <br>
+                       ② without : having something<br>
+                       ③ less : much larger in amount<br>
+                       ④ like : the same as or different from<br>
+                       ⑤ million : the number of 1,000,000,000<br>
+                    </p></div>
+
+                 <h4> 2. Which is the WRONG synonym match? [3점] </h4>
+
+                   <div class="bogi"><p>
+                       ①	effort   &nbsp;&nbsp;	:   attempt <br>
+                       ②	boat   &nbsp;&nbsp;	:   vessel <br>
+                       ③	sofa   &nbsp;&nbsp;	:   couch <br>
+                       ④	leftover   &nbsp;&nbsp; 	:   trash <br>
+                       ⑤	plate   &nbsp;&nbsp;	:   platter <br>
+                     </p></div>
+
+                 <h4> 3. Which is the best answer for the blank? Choose TWO answers. [3점] </h4>
+                       <div class="jimun"><p>
+                         I was born in Dokdo. But I  in Seoul.
+                       </p></div>
+                       <div class="bogi"><p>
+                           ①	raised   <br>
+                           ②	matures <br>
+                           ③	an adult  <br>
+                           ④	grew up <br>
+                           ⑤	was raised <br>
+                         </p></div>
+
+
+                  <h4> 4. 선생님의 설명에 학생이 답했을 내용으로 Ⓐ에 가장 알맞은 것은? [4점]</h4>
+                  <div class="jimun"><p>
+                    Teacher: How do you go to school? <br>
+                    Student: I go to school by bike. <br>
+                    Teacher: Good. You can say the same sentence in an action-driven way when you want
+                    to focus on the action. <br>
+                    Student: _________Ⓐ________     <br>
+                    Teacher: What a quick learner! <br>
+                  </p></div>
+                   <div class="bogi"><p>
+                      ① It takes 3 minutes. <br>
+                      ② I ride a bike to school. <br>
+                      ③ I went to school by bus. <br>
+                      ④ I go to school by subway.  <br>
+                      ⑤ My school is near the store. <br><br>
+                   </p></div>
+
+
+                  <h4> 5. Which is the best reminder in the following situation? [3점]</h4>
+                   &nbsp;&nbsp;&nbsp;&nbsp;<img src="http://127.0.0.1/Jw/pdf/eng/p16.PNG"> <br>
+                   <div class="bogi"><p>
+                      ① Make sure to turn up the radio. <br>
+                      ② Make sure you turn down the volume. <br>
+                      ③ Remember to turn on the light when it is dark. <br>
+                      ④ You're supposed to read the volume 1 within an hour.   <br>
+                      ⑤ Don’t forget to turn off the lights when you leave the room. <br><br>
+                   </p></div>
+
+              </div>
+
+              <div id="2" class="tabcontent">
+                ※[객6-7] 'Perhaps Love' 노래 가사를 읽고 다음 물음에 답하시오. <br>
+                 <div class="jimun">
+                   Perhaps love is like a resting place <br>
+                   A shelter from the storm<br>
+                   <u>①It exists to give you comfort</u><br>
+                   <u>②It is there to keep you warm</u><br>
+                   <br>
+                   And in those times of trouble<br>
+                   When you are most alone<br>
+                   The memory of love will bring you home<br>
+                   <br>
+                   Perhaps love is like a window<br>
+                   Perhaps an open door<br>
+                   <u>③It invites you to come closer</u><br>
+                   <u>④It wants to show you more</u><br>
+                   <br>
+                   And even if you lose yourself<br>
+                   And don't know what to do<br>
+                   The memory of love will see you through<br>
+                   <br>
+                   Oh love to some is like a cloud<br>
+                   To some as strong as steel<br>
+                   For some a way of living<br>
+                   For some a way to feel<br>
+                   <br>
+                   And some say love is holding on<br>
+                   And some say letting go<br>
+                   And some say love is everything<br>
+                   Some say they don't know<br>
+                   <br>
+                   Perhaps love is like the ocean<br>
+                   Full of conflict, full of pain<br>
+                   Like a fire when it's cold outside<br>
+                   <u>⑤Thunder when it rains</u><br>
+                   <br>
+                   If I should live forever<br>
+                   And all my dreams come true<br>
+                   My memories of love will be of you<br>
+                  </div><br>
+
+                  <h4> 6. 노래 가사에서 'Love‘를 표현하기 위해 작사가가 비유대상으로 사용한 것이 <u>아닌</u> 것은? [3점]</h4>
+
+                   <div class="bogi"><p>
+                      ① a fire <br>
+                      ② a cloud <br>
+                      ③ my memories<br>
+                      ④ a window<br>
+                      ⑤ a resting place<br>
+                   </p></div>
+
+                   <h4> 7. 밑줄 친 가사에서 사용된 ‘it’의 성질이 나머지와 다른 것은? [3점]</h4>
+
+                    <div class="bogi"><p>
+                       ① <u>It exists to give you comfort</u> <br>
+                       ② <u>It is there to keep you warm</u> <br>
+                       ③ <u>It invites you to come closer</u><br>
+                       ④ <u>It wants to show you more</u><br>
+                       ⑤ <u>Thunder when it rains</u><br>
+                    </p></div>
+
+                    <h4>8. ⓐ~ⓔ중 가리키는 대상이 다른 것은?  [3점]</h4>
+                    <div class="jimun"><p>
+                      A : What's wrong, Mom? You look upset. <br>
+                      M : Look at this electricity bill, Andy. <br>
+                      A : Wow! That’s a lot. <br>
+                      M : I think we're using too much electricity. We should do something about <u>ⓐit.</u> <br>
+                      A : What should we do? <br>
+                      M : Well, your <u>ⓑcomputer</u>'s always on. <u>ⓒIt</u> uses a lot of electricity. <br>
+                      A : I'm sorry, Mom. I didn't know that.<br>
+                      M : From now on, make sure you turn <u>ⓓit</u> off when you're not using <u>ⓔit</u>.<br>
+                      A : OK, Mom. I will.<br></p>
+                     <p style ="text-align:right;">*A: Andy, M: his Mom</p>
+                    </div>
+                     <div class="bogi"><p>
+                        ① <u>ⓐit</u> <br>
+                        ② <u>ⓑcomputer</u> <br>
+                        ③ <u>ⓒIt</u><br>
+                        ④ <u>ⓓit</u><br>
+                        ⑤ <u>ⓔit</u><br>
+                     </p></div>
+
+                     <h4> 9. 다음 중 어법상 옳은 문장은?   [3점]</h4>
+
+                      <div class="bogi"><p>
+                         ① I have a watch which looks very good. <br>
+                         ② This is the boy which is from America. <br>
+                         ③ Look at the girl who are crying on the street.<br>
+                         ④ The ball who is under the desk is mine.<br>
+                         ⑤ Do you know the lady that talk with  Dongju?<br>
+                      </p></div>
+                </div>
+                <div id="3" class="tabcontent">
+                  ※[객10-12,서1] Read and answer the questions. <br>
+                   <div class="jimun">
+                    <p>  My name is Mohamed Rahman. I live in Bangladesh. It rains a lot in my country.
+                     Last year, I could not go to school for weeks because we had floods.
+                     This year, we had floods again. Father said, “The floods are becoming worse.
+                     The ice in the Himalayas is melting more these days, and it rains more often.” </p>
+                     <p> I was very worried. I said, "I want to be a teacher when I grow up.
+                      If I miss so much school again, how can I become a teacher?" <strong>< A ></strong> </p>
+                     <p> However, things were different this year. It was the first day of school today,
+                       and the school was coming to me! It was a school boat! It was going to come from Monday
+                       to Saturday and stay at the village for three hours. <strong>< B ></strong></p>
+                     <p> My little sister and I were ready for school very early in the morning.
+                       We went outside and waited with the other children. When the boat finally came, we all got excited. <strong> < C ></strong> </p>
+                     <p> On the school boat, there were 40 seats for older children in the front and benches for
+                       little children at the back. There were even computers and a library. <strong>< D ></strong> </p>
+                     <p> My friends and I learned math and science. We learned to use the Internet, too.
+                       We had so much fun. <strong>< E ></strong> </p>
+                      <p>I love my school boat. I’m very happy because I can go to school and study now.
+                        When I become a teacher in the future, I want to teach children like me on a school boat.</p>
+                    </div><br>
+
+                    <h4> 10. Which is the best place for <보기>? [3점] </h4>
+                    <h4 style="padding-left: 200px;"><보  기></h4>
+                    <div class="jimun"><p>
+                      Time passed so quickly.
+                    </p></div>
+                     <div class="bogi"><p>
+                        ① < A > <br>
+                        ② < B > <br>
+                        ③ < C > <br>
+                        ④ < D > <br>
+                        ⑤ < E > <br>
+                     </p></div>
+
+                     <h4> 11. Which is true about the passage?  [3점]</h4>
+
+                      <div class="bogi"><p>
+                         ① Mohamed doesn't want to go to school. <br>
+                         ② Mohamed doesn't have any sister in his family.   <br>
+                         ③ A school boat came to the village five times a week.<br>
+                         ④ Mohamed was absent from school for weeks last year. <br>
+                         ⑤ Mohamed and his sister waited for the school boat at home. <br>
+                      </p></div>
+
+                      <h4>12. Which is NOT true about the passage? [3점]</h4>
+
+                       <div class="bogi"><p>
+                          ① Problem: Floods <br>
+                          ② Country : Bangladesh <br>
+                          ③ Capital : the Himalayas <br>
+                          ④ Main topic : a school boat <br>
+                          ⑤ Solution : a floating school <br>
+                       </p></div>
+
+                     <h4> [서술형1] Mohamed의 감정 변화를 나타내는 형용사를 제시된 이유에
+                         일치하도록 윗글에서 찾아 쓰시오.  [각2점, 총6점] </h4>
+                         &nbsp;&nbsp;&nbsp;&nbsp;<img src="http://127.0.0.1/Jw/pdf/eng/p17.PNG"> <br>
+
+                  </div>
+
+                  <div id="4" class="tabcontent">
+                    ※ [객13-16,서2] Read and answer the questions. <br>
+                     <div class="jimun">
+                      <p>  Yesterday, I saw a documentary on TV. It was about a man who tried to
+                           live (<strong> A</strong>) doing any harm to the environment. After watchingu <u>㈀it</u> ,
+                           I decided to start my own project, “Project Green Kid.” </p>
+                       <p> May 19 _____<u>ⓐ</u>_____     <br>
+                          Today was my first day as a Green Kid. I started my first project day by
+                          taking the stairs instead of the elevator. I felt great___<u>(가)</u>___
+                          my small effort saved electricity. The only problem is that my apartment is
+                          on the 15th floor. I guess I'd better not go out too often.</p>
+                       <p> May 22 _____<u>ⓑ</u>_____
+                          Today, I finished everything on my lunch plate. Was the food great today?
+                          Not really. I did that because (<strong>B</strong>)  food pollutes the environment.___<u>(나)</u>___,
+                          there was one little problem. I was sleepy all afternoon. I'd better put less
+                          food on my plate tomorrow. </p>
+                      </div><br>
+
+                      <h4> 13. Which is the best title for ⓐ and ⓑ? Choose TWO answers.[3점] </h4>
+
+                       <div class="bogi"><p>
+                          ① ⓐ : Project Green Kid <br>
+                          ② ⓐ : Take the Stairs <br>
+                          ③ ⓑ : Saving Trees at the Picnic <br>
+                          ④ ⓑ : No More Leftover Food <br>
+                          ⑤ ⓑ : A Great Idea for Saving Water <br>
+                       </p></div>
+
+                       <h4> 14. 밑줄 친 <u>㈀it</u>과 동일한 용법으로 사용된 it은?  [3점]</h4>
+
+                        <div class="bogi"><p>
+                           ① <u>It</u> is sunny. <br>
+                           ② <u>It</u>'s cold today.  <br>
+                           ③ What day is <u>it</u>? <br>
+                           ④ <u>It</u>'s on the chair. <br>
+                           ⑤ <u>It</u>'s 22km from here. <br>
+                        </p></div>
+
+                        <h4>15. Which is the best match for (가) and (나)? [3점]</h4>
+
+                         <div class="bogi"><p>
+                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (가)	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   (나) <br>
+                            ①  &nbsp;&nbsp; however	 &nbsp;&nbsp; Because <br>
+                            ②  &nbsp;&nbsp;&nbsp;&nbsp; if  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	But <br>
+                            ③  &nbsp;&nbsp; unless &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	As  <br>
+                            ④  &nbsp;&nbsp; because	&nbsp;&nbsp;&nbsp; Since <br>
+                            ⑤  &nbsp;&nbsp; because	&nbsp;&nbsp; However <br>
+                         </p></div>
+
+                         <h4> 16. 윗글을 읽고 답할 수 있는 질문은?  [3점] </h4>
+
+                          <div class="bogi"><p>
+                             ① What did the writer have to do when she took a walk? <br>
+                             ② What did the writer decide to do to save environment? <br>
+                             ③ What did the writer do on her third day as a Green Kid? <br>
+                             ④ Why did the writer finish everything on her breakfast plate? <br>
+                             ⑤ Why was using the stairs healthier than taking an elevator? <br>
+                          </p></div>
+
+
+                       <h4> [서술형 2] 윗글의 빈칸 ( A )와 ( B )에 알맞은 단어를 적으시오. [각2점,총4점] </h4>
+                       <div class="bogi"><p>
+                          (A)________________     <br>
+                          (B)________________
+                       </p></div>
+
+                       <h4> [서술형3] 다음 빈칸에 공통으로 들어갈 알맞은 단어를 각각 쓰시오. [각2점,총6점]  </h4>
+                       <div class="bogi"><p>
+                        <strong>3-A)</strong> 󰋯 I can't ________ the noise any more. <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 󰋯 I can ________ that much to help the environment.  <br><br>
+                        <strong>3-B)</strong>     󰋯 Get up early not to _____ the train.<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 󰋯 I want to see my son. I _____ him a lot.<br><br>
+                        <strong>3-C)</strong>     󰋯 Never mind. I don’t _____ . <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 󰋯 The girl is taking _____ of her puppy.
+                       </p></div>
+                    </div>
+
+                    <div id="5" class="tabcontent">
+                      ※ [객17-21] Read and answer the questions. <br>
+                       <div class="jimun">
+
+                        <p>  May 25 <br>
+                           There are so many people <u>ⓐwhich</u> do not have enough water all over the world.
+                          <strong>< A ></strong> I thought hard and got a great idea. I decided <u>ⓑtake</u> a shower every other day, not every day.
+                           <strong>< B ></strong> Today, I proudly went to school without taking a shower.
+                           Did I smell a little? Well, I don’t care!!</p> <br>
+                         <p> May 28 <br>
+                           <strong>< C ></strong> Today, my family went on a picnic. Our picnic box was <u>ⓒheavy</u> than usual because
+                           we didn’t bring paper cups and plates. </p>
+                         <p>  Mom said, “_________<u>(가)</u>_______ .”  <br>
+                           <strong>< D ></strong> The picnic was great, but I had to <u>ⓓdo</u> the dishes when we came home.
+                           <strong>< E ></strong> I don’t enjoy <u>ⓔdoing</u> the dishes, but I can do that to help the environment!  </p>
+                        </div><br>
+
+                        <h4> 17. ⓐ~ⓔ중, 어법상 옳은 것끼리 짝지어진 것은? [3점] </h4>
+
+                         <div class="bogi"><p>
+                            ① ⓐ, ⓑ <br>
+                            ② ⓐ, ⓓ <br>
+                            ③ ⓒ, ⓓ <br>
+                            ④ ⓒ, ⓔ <br>
+                            ⑤ ⓓ, ⓔ <br>
+                         </p></div>
+
+                         <h4> 18. Which is the best place for <보기>? [3점]</h4>
+                         <h4 style="padding-left: 200px;"><보  기></h4>
+                         <div class="jimun"><p>
+                           What can I do to save water?
+                         </p></div>
+                          <div class="bogi"><p>
+                             ① < A > <br>
+                             ② < B > <br>
+                             ③ < C > <br>
+                             ④ < D > <br>
+                             ⑤ < E > <br>
+                          </p></div>
+
+                          <h4>19. 윗글을 읽고 표로 정리한 내용으로 옳은 것은?  [3점]</h4>
+
+                           <div class="bogi"><p>
+                             <table border="1">
+                               <thead>
+                                 <th></th> <th>What</th><th>Why</th>
+                               </thead>
+                               <tbody>
+                                 <tr class="line">
+                                   <td>May 25</td>
+                                   <td style="padding:5px;">I went to school <br> without
+                                       taking a __①__ .</td>
+                                   <td style="padding:5px;">I can save __②__  .</td>
+                                 </tr>
+                                 <tr class="line">
+                                   <td>May 28</td>
+                                   <td style="padding:5px;">I didn’t use __③__  at  <br> the __④__ .</td>
+                                   <td style="padding:5px;">I can save  __⑤__  .</td>
+                                 </tr>
+                               </table>
+                           </p></div>
+                           <div class="bogi"><p>
+                              ① rest  <br>
+                              ② money <br>
+                              ③ cans <br>
+                              ④ restaurant <br>
+                              ⑤ trees <br>
+                           </p></div>
+
+
+                           <h4> 20. Which is the best answer for (가)? [3점] </h4>
+
+                            <div class="bogi"><p>
+                               ① You should do the dishes. <br>
+                               ② I am so tired, so let's take a rest. <br>
+                               ③ The earth is dying because we spend too much water. <br>
+                               ④ You should bring paper cups and plates to save trees. <br>
+                               ⑤ We can save lots of trees by not using paper cups and plates. <br>
+                            </p></div>
+
+                            <h4> 21. Who has the CORRECT understanding after reading the passage? [3점] </h4>
+
+                             <div class="bogi"><p>
+                                ① Somi : I will try to print less paper. <br>
+                                ② Sejong : I should use paper cups all the time. <br>
+                                ③ Nayojng : In summer, the smell from hair is terrible. <br>
+                                ④ Mina : There are so many people that don’t have enough soaps.<br>
+                                ⑤ Gyelgyung : I cannot do the dishes because it is too boring. <br>
+                             </p></div>
+
+                             <h4> 22. Which is the best title for the following passage? [3점] </h4>
+                             <div class="jimun">
+
+                              <p> We can save our planet by saving our trees and water. </p>
+                               <p> <i>Save trees.</i> We should plant new trees. We should protect forests and not cut them down too often. </p>
+                               <p> <i>Save water.</i> is life. It is important for all the people to survive.
+                                 At home, we should use water wisely not to waste it. </p>
+                              </div><br>
+
+                              <div class="bogi"><p>
+                                 ① How to save trees <br>
+                                 ② How to save the earth <br>
+                                 ③ How to use less electricity <br>
+                                 ④ How to produce less waste <br>
+                                 ⑤ How to decrease air pollution  <br>
+                              </p></div>
+                      </div>
+
+                      <div id="6" class="tabcontent">
+
+                          <h4> 23. Which is the best answer for ⓐ?   [3점] </h4>
+                          <div class="jimun">
+
+                           <p> A : Where can I find  ⓐ </p>
+                            <p>B: It is on the third floor.
+                                  First, go up to the third floor.
+                                  It's next to the restroom. You can't miss it.</p>
+                           </div><br>
+                           &nbsp;&nbsp;&nbsp;&nbsp;<img src="http://127.0.0.1/Jw/pdf/eng/p18.PNG"> <br>
+
+
+                           <div class="bogi"><p>
+                              ① watches <br>
+                              ② earrings <br>
+                              ③ bracelets <br>
+                              ④ handbags <br>
+                              ⑤ sunglasses <br>
+                           </p></div>
+
+                           ※ [객24-25] Read and answer the questions. <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<img src="http://127.0.0.1/Jw/pdf/eng/p19.PNG"> <br>
+
+                           <h4> 24. 위 도표의 내용과 관련이 없는 문장은? [4점]</h4>
+
+                           <div class="jimun"><p>
+                             This is my result of the survey.  <br>
+                            <u> ①I always finish all my food and turn off the water when I'm brushing my teeth. </u>
+                             <u>②I sometimes use paper cups.</u> I heard plastic bags are  bad for environment,
+                             <u> ③but I often use them.</u>
+                              <u>④I do not use the elevator at all</u> because I love to use stairs.
+                              <u>⑤Also, I select "Never" for #4</u> because I usually take a long shower.
+                              I decide to change the bad  habit.
+                           </p></div>
+
+                            <h4>25. < A >에 들어갈 표의 제목으로 가장 적절한 것은? [3점] </h4>
+
+                             <div class="bogi"><p>
+                                ① Science Project #6  <br>
+                                ②Yellow, Red, Green! <br>
+                                ③ How Green Are You? <br>
+                                ④ Being a Smart Person <br>
+                                ⑤ Save Money, Save Economy <br>
+                             </p></div>
+
+                             <h4> 26. 밑줄 친 서수가 올바르지 않은 것은?  [3점] </h4>
+
+                              <div class="bogi"><p>
+                                 ① the 1st class ticket : first <br>
+                                 ② the 12th building  : twelfth  <br>
+                                 ③ the 83rd birthday  : eighty-third <br>
+                                 ④ the 99th student  : ninety-nineth <br>
+                                 ⑤ the 42nd letter    : forty-second <br>
+                              </p></div>
+
+                               <h4> [서술형 4] 다음은 ‘Stop’ 노래 가사의 일부분이다.
+                                    한글로 주어진 밑줄 친 부분을 제시된 조건에 맞도록 어법상 올바른 형태로 작성하시오.[4점]</h4>
+
+                               <div class="jimun" style="text-align:center;">
+
+                                 All that I have is all that you’ve given me <br>
+                                 Did you never worry <br>
+                                 That I’d come to depend on you <br>
+                                 I gave you all the love I had in me <br>
+                                 And now I find you’ve lied <br>
+                                 And I can’t believe it’s true <br>
+                                 Oh <u>(당신은 멈추는 것이 낫겠어요)</u> <br>
+                                 before you tear me all apart. <br>
+                                 <u>(당신은 멈추는 것이 낫겠어요)</u>  <br>
+                                 before you go and break my heart. <br>
+                                 <u>(당신은 멈추는 것이 낫겠어요)</u> <br>
+                               </div> <br>
+
+                                 <div class="jimun"><p>
+                                   < 조 건 > <br>
+                                   1. 세 단어로 작성할 것 <br>
+                                   2. ‘better’이 반드시 사용될 것 <br>
+                                 </p></div> <br>
+
+                                 ➡ _______________________
+                        </div>
+
+
+
+
+
+
+            </main>
+            <aside>
+              <h3>답안지</h3>
+             <form class="" action="answer2017eng.php" method="post">
+               <table border="1">
+                 <thead>
+                   <th>번 호</th> <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+                 </thead>
+                 <tbody>
+                   <tr class="line">
+                     <td>1</td>
+                     <td><input type="radio" name="1" value="1"></td>
+                     <td><input type="radio" name="1" value="2"></td>
+                     <td><input type="radio" name="1" value="3"></td>
+                     <td><input type="radio" name="1" value="4"></td>
+                     <td><input type="radio" name="1" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>2</td>
+                     <td><input type="radio" name="2" value="1"></td>
+                     <td><input type="radio" name="2" value="2"></td>
+                     <td><input type="radio" name="2" value="3"></td>
+                     <td><input type="radio" name="2" value="4"></td>
+                     <td><input type="radio" name="2" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>3</td>
+                     <td><input type="checkbox" name="3[]" value="1"/></td>
+                     <td><input type="checkbox" name="3[]" value="2"/></td>
+                     <td><input type="checkbox" name="3[]" value="3"/></td>
+                     <td><input type="checkbox" name="3[]" value="4"/></td>
+                     <td><input type="checkbox" name="3[]" value="5"/></td>
+                   </tr>
+                   <tr class="line">
+                     <td>4</td>
+                     <td><input type="radio" name="4" value="1"></td>
+                     <td><input type="radio" name="4" value="2"></td>
+                     <td><input type="radio" name="4" value="3"></td>
+                     <td><input type="radio" name="4" value="4"></td>
+                     <td><input type="radio" name="4" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>5</td>
+                     <td><input type="radio" name="5" value="1"></td>
+                     <td><input type="radio" name="5" value="2"></td>
+                     <td><input type="radio" name="5" value="3"></td>
+                     <td><input type="radio" name="5" value="4"></td>
+                     <td><input type="radio" name="5" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>6</td>
+                     <td><input type="radio" name="6" value="1"></td>
+                     <td><input type="radio" name="6" value="2"></td>
+                     <td><input type="radio" name="6" value="3"></td>
+                     <td><input type="radio" name="6" value="4"></td>
+                     <td><input type="radio" name="6" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>7</td>
+                     <td><input type="radio" name="7" value="1"></td>
+                     <td><input type="radio" name="7" value="2"></td>
+                     <td><input type="radio" name="7" value="3"></td>
+                     <td><input type="radio" name="7" value="4"></td>
+                     <td><input type="radio" name="7" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>8</td>
+                     <td><input type="radio" name="8" value="1"></td>
+                     <td><input type="radio" name="8" value="2"></td>
+                     <td><input type="radio" name="8" value="3"></td>
+                     <td><input type="radio" name="8" value="4"></td>
+                     <td><input type="radio" name="8" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>9</td>
+                     <td><input type="radio" name="9" value="1"></td>
+                     <td><input type="radio" name="9" value="2"></td>
+                     <td><input type="radio" name="9" value="3"></td>
+                     <td><input type="radio" name="9" value="4"></td>
+                     <td><input type="radio" name="9" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>10</td>
+                     <td><input type="radio" name="10" value="1"></td>
+                     <td><input type="radio" name="10" value="2"></td>
+                     <td><input type="radio" name="10" value="3"></td>
+                     <td><input type="radio" name="10" value="4"></td>
+                     <td><input type="radio" name="10" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td >11</td>
+                     <td><input type="radio" name="11" value="1"></td>
+                     <td><input type="radio" name="11" value="2"></td>
+                     <td><input type="radio" name="11" value="3"></td>
+                     <td><input type="radio" name="11" value="4"></td>
+                     <td><input type="radio" name="11" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>12</td>
+                     <td><input type="radio" name="12" value="1"></td>
+                     <td><input type="radio" name="12" value="2"></td>
+                     <td><input type="radio" name="12" value="3"></td>
+                     <td><input type="radio" name="12" value="4"></td>
+                     <td><input type="radio" name="12" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>13</td>
+                     <td><input type="checkbox" name="13[]" value="1"/></td>
+                     <td><input type="checkbox" name="13[]" value="2"/></td>
+                     <td><input type="checkbox" name="13[]" value="3"/></td>
+                     <td><input type="checkbox" name="13[]" value="4"/></td>
+                     <td><input type="checkbox" name="13[]" value="5"/></td>
+                   </tr>
+                   <tr class="line">
+                     <td>14</td>
+                     <td><input type="radio" name="14" value="1"></td>
+                     <td><input type="radio" name="14" value="2"></td>
+                     <td><input type="radio" name="14" value="3"></td>
+                     <td><input type="radio" name="14" value="4"></td>
+                     <td><input type="radio" name="14" value="5"></td>
+                   </tr>
+                   <tr class="line">
+                     <td>15</td>
+                     <td><input type="radio" name="15" value="1"></td>
+                     <td><input type="radio" name="15" value="2"></td>
+                     <td><input type="radio" name="15" value="3"></td>
+                     <td><input type="radio" name="15" value="4"></td>
+                     <td><input type="radio" name="15" value="5"></td>
+                   </tr>
+                                     
+                   <td>16</td>
+                   <td><input type="radio" name="16" value="1"></td>
+                   <td><input type="radio" name="16" value="2"></td>
+                   <td><input type="radio" name="16" value="3"></td>
+                   <td><input type="radio" name="16" value="4"></td>
+                   <td><input type="radio" name="16" value="5"></td>
+                   </tr>
+                         <td>17</td>
+                         <td><input type="radio" name="17" value="1"></td>
+                         <td><input type="radio" name="17" value="2"></td>
+                         <td><input type="radio" name="17" value="3"></td>
+                         <td><input type="radio" name="17" value="4"></td>
+                         <td><input type="radio" name="17" value="5"></td>
+                       </tr>
+                       <td>18</td>
+                       <td><input type="radio" name="18" value="1"></td>
+                       <td><input type="radio" name="18" value="2"></td>
+                       <td><input type="radio" name="18" value="3"></td>
+                       <td><input type="radio" name="18" value="4"></td>
+                       <td><input type="radio" name="18" value="5"></td>
+                     </tr>
+                     <td>19</td>
+                     <td><input type="radio" name="19" value="1"></td>
+                     <td><input type="radio" name="19" value="2"></td>
+                     <td><input type="radio" name="19" value="3"></td>
+                     <td><input type="radio" name="19" value="4"></td>
+                     <td><input type="radio" name="19" value="5"></td>
+                   </tr>
+                   <td>20</td>
+                   <td><input type="radio" name="20" value="1"></td>
+                   <td><input type="radio" name="20" value="2"></td>
+                   <td><input type="radio" name="20" value="3"></td>
+                   <td><input type="radio" name="20" value="4"></td>
+                   <td><input type="radio" name="20" value="5"></td>
+                 </tr>
+                 <td>21</td>
+                 <td><input type="radio" name="21" value="1"></td>
+                 <td><input type="radio" name="21" value="2"></td>
+                 <td><input type="radio" name="21" value="3"></td>
+                 <td><input type="radio" name="21" value="4"></td>
+                 <td><input type="radio" name="21" value="5"></td>
+                 </tr>
+                 <td>22</td>
+                 <td><input type="radio" name="22" value="1"></td>
+                 <td><input type="radio" name="22" value="2"></td>
+                 <td><input type="radio" name="22" value="3"></td>
+                 <td><input type="radio" name="22" value="4"></td>
+                 <td><input type="radio" name="22" value="5"></td>
+                 </tr>
+                   <td>23</td>
+                   <td><input type="radio" name="23" value="1"></td>
+                   <td><input type="radio" name="23" value="2"></td>
+                   <td><input type="radio" name="23" value="3"></td>
+                   <td><input type="radio" name="23" value="4"></td>
+                   <td><input type="radio" name="23" value="5"></td>
+                 </tr>
+                 <td>24</td>
+                 <td><input type="radio" name="24" value="1"></td>
+                 <td><input type="radio" name="24" value="2"></td>
+                 <td><input type="radio" name="24" value="3"></td>
+                 <td><input type="radio" name="24" value="4"></td>
+                 <td><input type="radio" name="24" value="5"></td>
+                 </tr>
+                 <td>25</td>
+                 <td><input type="radio" name="25" value="1"></td>
+                 <td><input type="radio" name="25" value="2"></td>
+                 <td><input type="radio" name="25" value="3"></td>
+                 <td><input type="radio" name="25" value="4"></td>
+                 <td><input type="radio" name="25" value="5"></td>
+                </tr>
+                 <td>26</td>
+                 <td><input type="radio" name="26" value="1"></td>
+                 <td><input type="radio" name="26" value="2"></td>
+                 <td><input type="radio" name="26" value="3"></td>
+                 <td><input type="radio" name="26" value="4"></td>
+                 <td><input type="radio" name="26" value="5"></td>
+                 </tr>
+                 </tbody>
+                 </table><br>
+                  <label for="">서술형1</label>:<textarea name="s1" rows="3" cols="20"></textarea>
+                 <label for=""> 서술형2</label>:<textarea name="s2" rows="3" cols="20"></textarea>
+                 <label for=""> 서술형3</label>:<textarea name="s3" rows="3" cols="20"></textarea>
+                 <label for=""> 서술형4</label>:<textarea name="s4" rows="3" cols="20"></textarea>
+                 <input type="submit" value="제출">
+               </form>
+            </aside>
+          </section>
+        <footer>
+            <a href="">pdf</a>
+        </footer>
+    </div>
+
+    <script src="tab.js"> </script>
+</body>
+</html>
