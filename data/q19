@@ -1,0 +1,28 @@
+<h4>19. 윗글을 읽고 표로 정리한 내용으로 옳은 것은?  [3점]</h4>
+
+ <div class="bogi"><p>
+   <table border="1">
+     <thead>
+       <th></th> <th>What</th><th>Why</th>
+     </thead>
+     <tbody>
+       <tr class="line">
+         <td>May 25</td>
+         <td style="padding:5px;">I went to school <br> without
+             taking a __①__ .</td>
+         <td style="padding:5px;">I can save __②__  .</td>
+       </tr>
+       <tr class="line">
+         <td>May 28</td>
+         <td style="padding:5px;">I didn’t use __③__  at  <br> the __④__ .</td>
+         <td style="padding:5px;">I can save  __⑤__  .</td>
+       </tr>
+     </table>
+ </p></div>
+ <div class="bogi"><p>
+    ① rest  <br>
+    ② money <br>
+    ③ cans <br>
+    ④ restaurant <br>
+    ⑤ trees <br>
+ </p></div>
