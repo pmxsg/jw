@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="body_style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id = "title">
+                <img src="sci/logo.png" >
+                <span> 중학교 2학년 과학 </span>
+                <img src="sci/logo1.png" > <a href="https://www.flaticon.com/kr/free-icons/" title="과학 아이콘" style="font-size: 5px;">Freepik - Flaticon</a>
+            </div>
+            
+            <div class="topnav">
+                <a href="science1_1.html">I.물질의 구성</a>
+                <a href="science2_1.html">II.전기와 자기</a>
+                <a href="science3_1.html">III.태양계</a>  
+                <a href="science4_1.html">IV.식물과 에너지</a>
+                <a href="science5_1.html">V.동물과 에너지</a>
+                <a href="science6_1.html">VI.물질의 특성</a>
+                <a href="science7_1.html">VII.수권과 해수의 순환</a>
+                <a href="science8_1.html">VIII.열과 우리생활</a>
+                <a href="science9_1.html">IX.재해 재난과 안전</a>
+            </div>
+        </header>
+        <section class="content">
+            <nav>                
+                <div class="tab">
+                   <button class="tablinks" onclick="location.href='science5_1.html'"> 1.소화</button>
+                   <button class="tablinks" onclick="location.href='science5_2.html'"> 2. 순환</button>
+                   <button class="tablinks" onclick="location.href='science5_3.html'"> 3. 호흡과 배설</button>
+                   <button class="tablinks" onclick="openPage(event, 'ch1')" id="defaultOpen"> 01. 호흡계</button>
+                    <button class="tablinks" onclick="openPage(event, 'ch2')"> 02. 배설계</button>
+                    <button class="tablinks" onclick="openPage(event, 'ch3')"> 확인 문제 </button>                    
+                    <button class="tablinks" onclick="location.href='science5_4.html'"> 4. 세포호흡과 에너지</button>
+                </div>
+            </nav>
+            <main>
+                <div id="ch1" class="tabcontent">
+                    <h1> V. 동물과 에너지 </h1>
+                    <h2> 3. 호흡과 배설 </h2>
+                    <h3> 1. 기체를 교환하는 호흡계 </h3>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5k3jQRRrnrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p>
+
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wOp4LaxBUvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+                    </p>
+
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UewVGjzlgHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    </p>
+
+                    <p>
+                        
+                    </p>
+
+                  </div>
+                  
+                  <div id="ch2" class="tabcontent">
+                    <h3>2. 노페물을 내보내는 배설계 </h3>
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6SgyuwQpn98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p> 
+                       
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uGBkHA8uBC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    </p>
+
+                    <p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ajSjAcVlBrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </p>
+                  </div>
+                  
+                 
+                  <div id="ch3" class="tabcontent">
+                    <h3> 확인 문제 </h3>
+                   
+
+
+                  </div>
+                  
+                  <script>
+                  function openPage(evt, pageNo) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                      tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablinks");
+                    for (i = 0; i < tablinks.length; i++) {
+                      tablinks[i].className = tablinks[i].className.replace(" active", "");
+                    }
+                    document.getElementById(pageNo).style.display = "block";
+                    evt.currentTarget.className += " active";
+                  }
+                  
+                  // Get the element with id="defaultOpen" and click on it
+                  document.getElementById("defaultOpen").click();
+                  function myFunction(d1,e1,f1) {
+                    var dots = document.getElementById(d1);
+                    var moreText = document.getElementById(e1);
+                    var btnText = document.getElementById(f1);
+                    
+                    if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "확인"; 
+                    moreText.style.display = "none";
+                    } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "닫기"; 
+                    moreText.style.display = "inline";
+                    }
+                    }
+                  </script>
+            </main>
+            <aside>
+               <h3> 핵심 키워드 </h3> 
+            </aside>
+        </section>
+        <footer>
+            <button class="btn" onclick="location.href='science_index.html'"><i class="fa fa-home"></i> Home</button>
+        </footer>
+    </div>
+</body>
+</html>
